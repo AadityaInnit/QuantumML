@@ -1,0 +1,401 @@
+seed,n_train,n_test,model,test_acc,inner_cv_acc,best_params,positive_train,positive_test,selected_raw_baseline,fit_warning_count
+1000,32,512,Projected quantum kernel,0.541015625,0.7515151515151516,"{""C"": 10.0, ""gamma"": 10.0}",14,255,RBF SVM,0
+1000,32,512,RBF SVM,0.501953125,0.5636363636363636,"{""model__C"": 0.1, ""model__gamma"": 0.01}",14,255,RBF SVM,0
+1000,32,512,MLP,0.515625,0.47272727272727266,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",14,255,RBF SVM,0
+1000,32,512,Random forest,0.5,0.4666666666666666,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",14,255,RBF SVM,0
+1000,32,512,Gradient boosting,0.513671875,0.5272727272727272,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",14,255,RBF SVM,1
+1000,32,512,Fourier+pairwise SVM,0.501953125,0.5636363636363636,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",14,255,RBF SVM,0
+1000,32,512,Classical same-feature RBF,0.541015625,0.7515151515151516,"{""C"": 10.0, ""gamma"": 10.0}",14,255,RBF SVM,0
+1000,32,512,Classical same-feature logistic,0.82421875,0.6515151515151515,"{""C"": 10.0}",14,255,RBF SVM,0
+1000,32,512,Nonentangling projection RBF,0.501953125,0.5636363636363636,"{""C"": 0.1, ""gamma"": 0.1}",14,255,RBF SVM,0
+1000,32,512,Classical raw-input selection,0.501953125,0.5636363636363636,"{""model__C"": 0.1, ""model__gamma"": 0.01}",14,255,RBF SVM,0
+1000,64,512,Projected quantum kernel,0.884765625,0.8751803751803752,"{""C"": 100.0, ""gamma"": 0.1}",30,255,Random forest,0
+1000,64,512,RBF SVM,0.501953125,0.531024531024531,"{""model__C"": 0.1, ""model__gamma"": 0.01}",30,255,Random forest,0
+1000,64,512,MLP,0.478515625,0.4696969696969697,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",30,255,Random forest,0
+1000,64,512,Random forest,0.51171875,0.5317460317460317,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",30,255,Random forest,0
+1000,64,512,Gradient boosting,0.509765625,0.4862914862914863,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",30,255,Random forest,0
+1000,64,512,Fourier+pairwise SVM,0.501953125,0.531024531024531,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",30,255,Random forest,0
+1000,64,512,Classical same-feature RBF,0.884765625,0.8751803751803752,"{""C"": 100.0, ""gamma"": 0.1}",30,255,Random forest,0
+1000,64,512,Classical same-feature logistic,0.912109375,0.8744588744588744,"{""C"": 100.0}",30,255,Random forest,0
+1000,64,512,Nonentangling projection RBF,0.509765625,0.5483405483405484,"{""C"": 1.0, ""gamma"": 0.1}",30,255,Random forest,0
+1000,64,512,Classical raw-input selection,0.51171875,0.5317460317460317,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",30,255,Random forest,0
+1000,128,512,Projected quantum kernel,0.884765625,0.9145441122185308,"{""C"": 10.0, ""gamma"": 0.1}",63,255,Fourier+pairwise SVM,0
+1000,128,512,RBF SVM,0.501953125,0.515688445921004,"{""model__C"": 10.0, ""model__gamma"": 10.0}",63,255,Fourier+pairwise SVM,0
+1000,128,512,MLP,0.501953125,0.5155038759689923,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",63,255,Fourier+pairwise SVM,1
+1000,128,512,Random forest,0.513671875,0.49981543004798823,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",63,255,Fourier+pairwise SVM,0
+1000,128,512,Gradient boosting,0.533203125,0.5383905500184569,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",63,255,Fourier+pairwise SVM,0
+1000,128,512,Fourier+pairwise SVM,0.517578125,0.6011443337024732,"{""model__C"": 10.0, ""model__gamma"": 0.001}",63,255,Fourier+pairwise SVM,0
+1000,128,512,Classical same-feature RBF,0.884765625,0.9145441122185308,"{""C"": 10.0, ""gamma"": 0.1}",63,255,Fourier+pairwise SVM,0
+1000,128,512,Classical same-feature logistic,0.912109375,0.9298634182355112,"{""C"": 10.0}",63,255,Fourier+pairwise SVM,0
+1000,128,512,Nonentangling projection RBF,0.501953125,0.5077519379844961,"{""C"": 0.1, ""gamma"": 0.1}",63,255,Fourier+pairwise SVM,0
+1000,128,512,Classical raw-input selection,0.517578125,0.6011443337024732,"{""model__C"": 10.0, ""model__gamma"": 0.001}",63,255,Fourier+pairwise SVM,0
+1000,256,512,Projected quantum kernel,0.923828125,0.941267669858641,"{""C"": 10.0, ""gamma"": 0.1}",131,255,RBF SVM,0
+1000,256,512,RBF SVM,0.505859375,0.5351573187414501,"{""model__C"": 1.0, ""model__gamma"": 0.01}",131,255,RBF SVM,0
+1000,256,512,MLP,0.51171875,0.5271317829457365,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",131,255,RBF SVM,6
+1000,256,512,Random forest,0.5234375,0.5155494756041952,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",131,255,RBF SVM,0
+1000,256,512,Gradient boosting,0.53515625,0.5233014135886913,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",131,255,RBF SVM,0
+1000,256,512,Fourier+pairwise SVM,0.498046875,0.51171910624715,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",131,255,RBF SVM,0
+1000,256,512,Classical same-feature RBF,0.923828125,0.941267669858641,"{""C"": 10.0, ""gamma"": 0.1}",131,255,RBF SVM,0
+1000,256,512,Classical same-feature logistic,0.962890625,0.968718650250798,"{""C"": 100.0}",131,255,RBF SVM,0
+1000,256,512,Nonentangling projection RBF,0.498046875,0.51171910624715,"{""C"": 0.1, ""gamma"": 0.1}",131,255,RBF SVM,0
+1000,256,512,Classical raw-input selection,0.505859375,0.5351573187414501,"{""model__C"": 1.0, ""model__gamma"": 0.01}",131,255,RBF SVM,0
+1001,32,512,Projected quantum kernel,0.76953125,0.7181818181818181,"{""C"": 10.0, ""gamma"": 0.1}",18,251,RBF SVM,0
+1001,32,512,RBF SVM,0.490234375,0.5636363636363636,"{""model__C"": 0.1, ""model__gamma"": 0.01}",18,251,RBF SVM,0
+1001,32,512,MLP,0.49609375,0.4666666666666666,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",18,251,RBF SVM,0
+1001,32,512,Random forest,0.50390625,0.4393939393939394,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",18,251,RBF SVM,0
+1001,32,512,Gradient boosting,0.5234375,0.3757575757575758,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",18,251,RBF SVM,0
+1001,32,512,Fourier+pairwise SVM,0.490234375,0.5636363636363636,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",18,251,RBF SVM,0
+1001,32,512,Classical same-feature RBF,0.76953125,0.7181818181818181,"{""C"": 10.0, ""gamma"": 0.1}",18,251,RBF SVM,0
+1001,32,512,Classical same-feature logistic,0.775390625,0.7515151515151516,"{""C"": 10.0}",18,251,RBF SVM,0
+1001,32,512,Nonentangling projection RBF,0.490234375,0.5636363636363636,"{""C"": 0.1, ""gamma"": 0.1}",18,251,RBF SVM,0
+1001,32,512,Classical raw-input selection,0.490234375,0.5636363636363636,"{""model__C"": 0.1, ""model__gamma"": 0.01}",18,251,RBF SVM,0
+1001,64,512,Projected quantum kernel,0.8515625,0.8593073593073592,"{""C"": 10.0, ""gamma"": 0.1}",34,251,Fourier+pairwise SVM,0
+1001,64,512,RBF SVM,0.537109375,0.5598845598845599,"{""model__C"": 10.0, ""model__gamma"": 1.0}",34,251,Fourier+pairwise SVM,0
+1001,64,512,MLP,0.515625,0.4992784992784993,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",34,251,Fourier+pairwise SVM,0
+1001,64,512,Random forest,0.521484375,0.5916305916305916,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",34,251,Fourier+pairwise SVM,0
+1001,64,512,Gradient boosting,0.521484375,0.5468975468975469,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",34,251,Fourier+pairwise SVM,0
+1001,64,512,Fourier+pairwise SVM,0.501953125,0.63997113997114,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",34,251,Fourier+pairwise SVM,0
+1001,64,512,Classical same-feature RBF,0.8515625,0.8593073593073592,"{""C"": 10.0, ""gamma"": 0.1}",34,251,Fourier+pairwise SVM,0
+1001,64,512,Classical same-feature logistic,0.8828125,0.8593073593073592,"{""C"": 10.0}",34,251,Fourier+pairwise SVM,0
+1001,64,512,Nonentangling projection RBF,0.525390625,0.6096681096681097,"{""C"": 1.0, ""gamma"": 0.1}",34,251,Fourier+pairwise SVM,0
+1001,64,512,Classical raw-input selection,0.501953125,0.63997113997114,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",34,251,Fourier+pairwise SVM,0
+1001,128,512,Projected quantum kernel,0.943359375,0.8588039867109635,"{""C"": 100.0, ""gamma"": 0.1}",64,251,MLP,0
+1001,128,512,RBF SVM,0.48828125,0.5239940937615356,"{""model__C"": 0.1, ""model__gamma"": 10.0}",64,251,MLP,0
+1001,128,512,MLP,0.49609375,0.5618309339239572,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",64,251,MLP,1
+1001,128,512,Random forest,0.494140625,0.4689922480620155,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",64,251,MLP,0
+1001,128,512,Gradient boosting,0.521484375,0.4844961240310077,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",64,251,MLP,0
+1001,128,512,Fourier+pairwise SVM,0.5234375,0.5239940937615356,"{""model__C"": 0.1, ""model__gamma"": 0.1}",64,251,MLP,0
+1001,128,512,Classical same-feature RBF,0.943359375,0.8588039867109635,"{""C"": 100.0, ""gamma"": 0.1}",64,251,MLP,0
+1001,128,512,Classical same-feature logistic,0.951171875,0.8822443706164637,"{""C"": 100.0}",64,251,MLP,0
+1001,128,512,Nonentangling projection RBF,0.4609375,0.5001845699520118,"{""C"": 0.1, ""gamma"": 0.1}",64,251,MLP,0
+1001,128,512,Classical raw-input selection,0.49609375,0.5618309339239572,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",64,251,MLP,1
+1001,256,512,Projected quantum kernel,0.978515625,0.9336525307797537,"{""C"": 100.0, ""gamma"": 0.1}",128,251,RBF SVM,0
+1001,256,512,RBF SVM,0.5,0.6013223894208847,"{""model__C"": 10.0, ""model__gamma"": 1.0}",128,251,RBF SVM,0
+1001,256,512,MLP,0.509765625,0.578248974008208,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""adam""}",128,251,RBF SVM,6
+1001,256,512,Random forest,0.5078125,0.5078887368901049,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",128,251,RBF SVM,0
+1001,256,512,Gradient boosting,0.494140625,0.5351117191062471,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",128,251,RBF SVM,0
+1001,256,512,Fourier+pairwise SVM,0.486328125,0.5115823073415413,"{""model__C"": 10.0, ""model__gamma"": 0.01}",128,251,RBF SVM,0
+1001,256,512,Classical same-feature RBF,0.978515625,0.9336525307797537,"{""C"": 100.0, ""gamma"": 0.1}",128,251,RBF SVM,0
+1001,256,512,Classical same-feature logistic,0.978515625,0.9492020063839489,"{""C"": 100.0}",128,251,RBF SVM,0
+1001,256,512,Nonentangling projection RBF,0.48828125,0.5119471044231646,"{""C"": 100.0, ""gamma"": 0.1}",128,251,RBF SVM,0
+1001,256,512,Classical raw-input selection,0.5,0.6013223894208847,"{""model__C"": 10.0, ""model__gamma"": 1.0}",128,251,RBF SVM,0
+1002,32,512,Projected quantum kernel,0.79296875,0.8757575757575758,"{""C"": 100.0, ""gamma"": 0.1}",12,237,RBF SVM,0
+1002,32,512,RBF SVM,0.537109375,0.6242424242424242,"{""model__C"": 0.1, ""model__gamma"": 0.01}",12,237,RBF SVM,0
+1002,32,512,MLP,0.51953125,0.4696969696969697,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",12,237,RBF SVM,0
+1002,32,512,Random forest,0.552734375,0.4666666666666666,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",12,237,RBF SVM,0
+1002,32,512,Gradient boosting,0.537109375,0.3757575757575758,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",12,237,RBF SVM,0
+1002,32,512,Fourier+pairwise SVM,0.537109375,0.6242424242424242,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",12,237,RBF SVM,0
+1002,32,512,Classical same-feature RBF,0.79296875,0.8757575757575758,"{""C"": 100.0, ""gamma"": 0.1}",12,237,RBF SVM,0
+1002,32,512,Classical same-feature logistic,0.794921875,0.7848484848484848,"{""C"": 10.0}",12,237,RBF SVM,0
+1002,32,512,Nonentangling projection RBF,0.509765625,0.6848484848484849,"{""C"": 10.0, ""gamma"": 0.1}",12,237,RBF SVM,0
+1002,32,512,Classical raw-input selection,0.537109375,0.6242424242424242,"{""model__C"": 0.1, ""model__gamma"": 0.01}",12,237,RBF SVM,0
+1002,64,512,Projected quantum kernel,0.82421875,0.8759018759018758,"{""C"": 1.0, ""gamma"": 1.0}",27,237,Fourier+pairwise SVM,0
+1002,64,512,RBF SVM,0.537109375,0.577922077922078,"{""model__C"": 0.1, ""model__gamma"": 0.01}",27,237,Fourier+pairwise SVM,0
+1002,64,512,MLP,0.52734375,0.5,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""adam""}",27,237,Fourier+pairwise SVM,0
+1002,64,512,Random forest,0.5234375,0.5151515151515151,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",27,237,Fourier+pairwise SVM,0
+1002,64,512,Gradient boosting,0.537109375,0.4523809523809524,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",27,237,Fourier+pairwise SVM,0
+1002,64,512,Fourier+pairwise SVM,0.53515625,0.5930735930735931,"{""model__C"": 10.0, ""model__gamma"": 0.001}",27,237,Fourier+pairwise SVM,0
+1002,64,512,Classical same-feature RBF,0.82421875,0.8759018759018758,"{""C"": 1.0, ""gamma"": 1.0}",27,237,Fourier+pairwise SVM,0
+1002,64,512,Classical same-feature logistic,0.87890625,0.86002886002886,"{""C"": 100.0}",27,237,Fourier+pairwise SVM,0
+1002,64,512,Nonentangling projection RBF,0.537109375,0.577922077922078,"{""C"": 0.1, ""gamma"": 0.1}",27,237,Fourier+pairwise SVM,0
+1002,64,512,Classical raw-input selection,0.53515625,0.5930735930735931,"{""model__C"": 10.0, ""model__gamma"": 0.001}",27,237,Fourier+pairwise SVM,0
+1002,128,512,Projected quantum kernel,0.884765625,0.9374307862679956,"{""C"": 10.0, ""gamma"": 1.0}",60,237,RBF SVM,0
+1002,128,512,RBF SVM,0.455078125,0.5616463639719453,"{""model__C"": 100.0, ""model__gamma"": 0.1}",60,237,RBF SVM,0
+1002,128,512,MLP,0.45703125,0.5311923218899963,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",60,237,RBF SVM,1
+1002,128,512,Random forest,0.486328125,0.4996308600959764,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",60,237,RBF SVM,0
+1002,128,512,Gradient boosting,0.47265625,0.5230712440014765,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",60,237,RBF SVM,0
+1002,128,512,Fourier+pairwise SVM,0.537109375,0.5311923218899963,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",60,237,RBF SVM,0
+1002,128,512,Classical same-feature RBF,0.884765625,0.9374307862679956,"{""C"": 10.0, ""gamma"": 1.0}",60,237,RBF SVM,0
+1002,128,512,Classical same-feature logistic,0.912109375,0.9372462163159838,"{""C"": 100.0}",60,237,RBF SVM,0
+1002,128,512,Nonentangling projection RBF,0.529296875,0.53156146179402,"{""C"": 10.0, ""gamma"": 1.0}",60,237,RBF SVM,0
+1002,128,512,Classical raw-input selection,0.455078125,0.5616463639719453,"{""model__C"": 100.0, ""model__gamma"": 0.1}",60,237,RBF SVM,0
+1002,256,512,Projected quantum kernel,0.9375,0.9414500683994528,"{""C"": 100.0, ""gamma"": 0.1}",115,237,Random forest,0
+1002,256,512,RBF SVM,0.537109375,0.5507979936160511,"{""model__C"": 0.1, ""model__gamma"": 0.01}",115,237,Random forest,0
+1002,256,512,MLP,0.466796875,0.5701778385772914,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",115,237,Random forest,7
+1002,256,512,Random forest,0.4921875,0.5702234382124942,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",115,237,Random forest,0
+1002,256,512,Gradient boosting,0.49609375,0.5585043319653443,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",115,237,Random forest,0
+1002,256,512,Fourier+pairwise SVM,0.537109375,0.5507979936160511,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",115,237,Random forest,0
+1002,256,512,Classical same-feature RBF,0.9375,0.9414500683994528,"{""C"": 100.0, ""gamma"": 0.1}",115,237,Random forest,0
+1002,256,512,Classical same-feature logistic,0.943359375,0.9414500683994529,"{""C"": 100.0}",115,237,Random forest,0
+1002,256,512,Nonentangling projection RBF,0.51953125,0.5546739626082992,"{""C"": 1.0, ""gamma"": 1.0}",115,237,Random forest,0
+1002,256,512,Classical raw-input selection,0.4921875,0.5702234382124942,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",115,237,Random forest,0
+1003,32,512,Projected quantum kernel,0.826171875,0.7848484848484848,"{""C"": 100.0, ""gamma"": 0.1}",19,244,RBF SVM,0
+1003,32,512,RBF SVM,0.4765625,0.5939393939393939,"{""model__C"": 0.1, ""model__gamma"": 0.01}",19,244,RBF SVM,0
+1003,32,512,MLP,0.51171875,0.5575757575757576,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",19,244,RBF SVM,0
+1003,32,512,Random forest,0.49609375,0.5575757575757576,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",19,244,RBF SVM,0
+1003,32,512,Gradient boosting,0.517578125,0.5303030303030303,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",19,244,RBF SVM,0
+1003,32,512,Fourier+pairwise SVM,0.4765625,0.5939393939393939,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",19,244,RBF SVM,0
+1003,32,512,Classical same-feature RBF,0.826171875,0.7848484848484848,"{""C"": 100.0, ""gamma"": 0.1}",19,244,RBF SVM,0
+1003,32,512,Classical same-feature logistic,0.82421875,0.8151515151515151,"{""C"": 10.0}",19,244,RBF SVM,0
+1003,32,512,Nonentangling projection RBF,0.53125,0.6242424242424242,"{""C"": 10.0, ""gamma"": 0.1}",19,244,RBF SVM,0
+1003,32,512,Classical raw-input selection,0.4765625,0.5939393939393939,"{""model__C"": 0.1, ""model__gamma"": 0.01}",19,244,RBF SVM,0
+1003,64,512,Projected quantum kernel,0.787109375,0.8116883116883118,"{""C"": 1.0, ""gamma"": 1.0}",38,244,RBF SVM,0
+1003,64,512,RBF SVM,0.4765625,0.5937950937950938,"{""model__C"": 0.1, ""model__gamma"": 0.01}",38,244,RBF SVM,0
+1003,64,512,MLP,0.490234375,0.42063492063492064,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",38,244,RBF SVM,1
+1003,64,512,Random forest,0.484375,0.5165945165945166,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",38,244,RBF SVM,0
+1003,64,512,Gradient boosting,0.50390625,0.4682539682539682,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",38,244,RBF SVM,0
+1003,64,512,Fourier+pairwise SVM,0.4765625,0.5937950937950938,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",38,244,RBF SVM,0
+1003,64,512,Classical same-feature RBF,0.787109375,0.8116883116883118,"{""C"": 1.0, ""gamma"": 1.0}",38,244,RBF SVM,0
+1003,64,512,Classical same-feature logistic,0.904296875,0.8116883116883117,"{""C"": 100.0}",38,244,RBF SVM,0
+1003,64,512,Nonentangling projection RBF,0.4765625,0.5937950937950938,"{""C"": 0.1, ""gamma"": 0.1}",38,244,RBF SVM,0
+1003,64,512,Classical raw-input selection,0.4765625,0.5937950937950938,"{""model__C"": 0.1, ""model__gamma"": 0.01}",38,244,RBF SVM,0
+1003,128,512,Projected quantum kernel,0.9375,0.9058693244739756,"{""C"": 100.0, ""gamma"": 0.1}",69,244,RBF SVM,0
+1003,128,512,RBF SVM,0.4765625,0.5391288298265042,"{""model__C"": 0.1, ""model__gamma"": 0.01}",69,244,RBF SVM,0
+1003,128,512,MLP,0.478515625,0.4449981543004799,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",69,244,RBF SVM,0
+1003,128,512,Random forest,0.4921875,0.5153193060169805,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",69,244,RBF SVM,0
+1003,128,512,Gradient boosting,0.5,0.5,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",69,244,RBF SVM,0
+1003,128,512,Fourier+pairwise SVM,0.4765625,0.5391288298265042,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",69,244,RBF SVM,0
+1003,128,512,Classical same-feature RBF,0.9375,0.9058693244739756,"{""C"": 100.0, ""gamma"": 0.1}",69,244,RBF SVM,0
+1003,128,512,Classical same-feature logistic,0.953125,0.9056847545219638,"{""C"": 100.0}",69,244,RBF SVM,0
+1003,128,512,Nonentangling projection RBF,0.4765625,0.5391288298265042,"{""C"": 0.1, ""gamma"": 0.1}",69,244,RBF SVM,0
+1003,128,512,Classical raw-input selection,0.4765625,0.5391288298265042,"{""model__C"": 0.1, ""model__gamma"": 0.01}",69,244,RBF SVM,0
+1003,256,512,Projected quantum kernel,0.9453125,0.9374373005015961,"{""C"": 100.0, ""gamma"": 0.1}",128,244,RBF SVM,0
+1003,256,512,RBF SVM,0.515625,0.5158230734154127,"{""model__C"": 100.0, ""model__gamma"": 0.01}",128,244,RBF SVM,0
+1003,256,512,MLP,0.474609375,0.4845417236662107,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",128,244,RBF SVM,6
+1003,256,512,Random forest,0.515625,0.4413588691290469,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",128,244,RBF SVM,0
+1003,256,512,Gradient boosting,0.515625,0.46073871409028727,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",128,244,RBF SVM,0
+1003,256,512,Fourier+pairwise SVM,0.50390625,0.5038303693570452,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",128,244,RBF SVM,0
+1003,256,512,Classical same-feature RBF,0.9453125,0.9374373005015961,"{""C"": 100.0, ""gamma"": 0.1}",128,244,RBF SVM,0
+1003,256,512,Classical same-feature logistic,0.962890625,0.9492476060191519,"{""C"": 100.0}",128,244,RBF SVM,0
+1003,256,512,Nonentangling projection RBF,0.515625,0.5310077519379846,"{""C"": 100.0, ""gamma"": 0.1}",128,244,RBF SVM,0
+1003,256,512,Classical raw-input selection,0.515625,0.5158230734154127,"{""model__C"": 100.0, ""model__gamma"": 0.01}",128,244,RBF SVM,0
+1004,32,512,Projected quantum kernel,0.751953125,0.7787878787878787,"{""C"": 10.0, ""gamma"": 0.1}",13,255,RBF SVM,0
+1004,32,512,RBF SVM,0.486328125,0.6272727272727273,"{""model__C"": 1.0, ""model__gamma"": 1.0}",13,255,RBF SVM,0
+1004,32,512,MLP,0.4921875,0.5363636363636363,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",13,255,RBF SVM,0
+1004,32,512,Random forest,0.486328125,0.5969696969696969,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",13,255,RBF SVM,0
+1004,32,512,Gradient boosting,0.501953125,0.5939393939393939,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",13,255,RBF SVM,0
+1004,32,512,Fourier+pairwise SVM,0.490234375,0.6272727272727272,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",13,255,RBF SVM,0
+1004,32,512,Classical same-feature RBF,0.751953125,0.7787878787878787,"{""C"": 10.0, ""gamma"": 0.1}",13,255,RBF SVM,0
+1004,32,512,Classical same-feature logistic,0.83984375,0.7212121212121213,"{""C"": 100.0}",13,255,RBF SVM,0
+1004,32,512,Nonentangling projection RBF,0.501953125,0.5939393939393939,"{""C"": 0.1, ""gamma"": 0.1}",13,255,RBF SVM,0
+1004,32,512,Classical raw-input selection,0.486328125,0.6272727272727273,"{""model__C"": 1.0, ""model__gamma"": 1.0}",13,255,RBF SVM,0
+1004,64,512,Projected quantum kernel,0.86328125,0.810966810966811,"{""C"": 100.0, ""gamma"": 0.1}",22,255,RBF SVM,0
+1004,64,512,RBF SVM,0.478515625,0.6875901875901875,"{""model__C"": 10.0, ""model__gamma"": 0.01}",22,255,RBF SVM,0
+1004,64,512,MLP,0.490234375,0.608946608946609,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""adam""}",22,255,RBF SVM,0
+1004,64,512,Random forest,0.482421875,0.6414141414141414,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",22,255,RBF SVM,0
+1004,64,512,Gradient boosting,0.498046875,0.6262626262626262,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",22,255,RBF SVM,0
+1004,64,512,Fourier+pairwise SVM,0.501953125,0.6565656565656566,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",22,255,RBF SVM,0
+1004,64,512,Classical same-feature RBF,0.86328125,0.810966810966811,"{""C"": 100.0, ""gamma"": 0.1}",22,255,RBF SVM,0
+1004,64,512,Classical same-feature logistic,0.876953125,0.8419913419913421,"{""C"": 100.0}",22,255,RBF SVM,0
+1004,64,512,Nonentangling projection RBF,0.501953125,0.6565656565656566,"{""C"": 0.1, ""gamma"": 0.1}",22,255,RBF SVM,0
+1004,64,512,Classical raw-input selection,0.478515625,0.6875901875901875,"{""model__C"": 10.0, ""model__gamma"": 0.01}",22,255,RBF SVM,0
+1004,128,512,Projected quantum kernel,0.90234375,0.9143595422665189,"{""C"": 100.0, ""gamma"": 0.1}",49,255,Fourier+pairwise SVM,0
+1004,128,512,RBF SVM,0.501953125,0.6172019195275009,"{""model__C"": 0.1, ""model__gamma"": 0.01}",49,255,Fourier+pairwise SVM,0
+1004,128,512,MLP,0.478515625,0.4913252122554448,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""adam""}",49,255,Fourier+pairwise SVM,1
+1004,128,512,Random forest,0.474609375,0.5701365817644888,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",49,255,Fourier+pairwise SVM,0
+1004,128,512,Gradient boosting,0.486328125,0.5160575858250277,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",49,255,Fourier+pairwise SVM,0
+1004,128,512,Fourier+pairwise SVM,0.501953125,0.6330749354005167,"{""model__C"": 10.0, ""model__gamma"": 0.001}",49,255,Fourier+pairwise SVM,0
+1004,128,512,Classical same-feature RBF,0.90234375,0.9143595422665189,"{""C"": 100.0, ""gamma"": 0.1}",49,255,Fourier+pairwise SVM,0
+1004,128,512,Classical same-feature logistic,0.892578125,0.9138058324104836,"{""C"": 100.0}",49,255,Fourier+pairwise SVM,0
+1004,128,512,Nonentangling projection RBF,0.501953125,0.6172019195275009,"{""C"": 0.1, ""gamma"": 0.1}",49,255,Fourier+pairwise SVM,0
+1004,128,512,Classical raw-input selection,0.501953125,0.6330749354005167,"{""model__C"": 10.0, ""model__gamma"": 0.001}",49,255,Fourier+pairwise SVM,0
+1004,256,512,Projected quantum kernel,0.947265625,0.9259005927952577,"{""C"": 100.0, ""gamma"": 0.1}",107,255,MLP,0
+1004,256,512,RBF SVM,0.50390625,0.5900592795257639,"{""model__C"": 10.0, ""model__gamma"": 0.1}",107,255,MLP,0
+1004,256,512,MLP,0.50390625,0.613451892384861,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",107,255,MLP,5
+1004,256,512,Random forest,0.494140625,0.5665754673962609,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",107,255,MLP,0
+1004,256,512,Gradient boosting,0.46875,0.5822617419060648,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",107,255,MLP,0
+1004,256,512,Fourier+pairwise SVM,0.50390625,0.5859097127222982,"{""model__C"": 1.0, ""model__gamma"": 0.001}",107,255,MLP,0
+1004,256,512,Classical same-feature RBF,0.947265625,0.9259005927952577,"{""C"": 100.0, ""gamma"": 0.1}",107,255,MLP,0
+1004,256,512,Classical same-feature logistic,0.955078125,0.9530779753761971,"{""C"": 100.0}",107,255,MLP,0
+1004,256,512,Nonentangling projection RBF,0.501953125,0.5820337437300501,"{""C"": 0.1, ""gamma"": 0.1}",107,255,MLP,0
+1004,256,512,Classical raw-input selection,0.50390625,0.613451892384861,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",107,255,MLP,5
+1005,32,512,Projected quantum kernel,0.8125,1.0,"{""C"": 100.0, ""gamma"": 0.1}",18,239,Fourier+pairwise SVM,0
+1005,32,512,RBF SVM,0.466796875,0.5636363636363636,"{""model__C"": 0.1, ""model__gamma"": 0.01}",18,239,Fourier+pairwise SVM,0
+1005,32,512,MLP,0.494140625,0.43333333333333335,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",18,239,Fourier+pairwise SVM,0
+1005,32,512,Random forest,0.46875,0.4666666666666666,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",18,239,Fourier+pairwise SVM,0
+1005,32,512,Gradient boosting,0.490234375,0.40606060606060607,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",18,239,Fourier+pairwise SVM,0
+1005,32,512,Fourier+pairwise SVM,0.447265625,0.6242424242424242,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",18,239,Fourier+pairwise SVM,0
+1005,32,512,Classical same-feature RBF,0.8125,1.0,"{""C"": 100.0, ""gamma"": 0.1}",18,239,Fourier+pairwise SVM,0
+1005,32,512,Classical same-feature logistic,0.822265625,0.9696969696969697,"{""C"": 100.0}",18,239,Fourier+pairwise SVM,0
+1005,32,512,Nonentangling projection RBF,0.466796875,0.5636363636363636,"{""C"": 0.1, ""gamma"": 0.1}",18,239,Fourier+pairwise SVM,0
+1005,32,512,Classical raw-input selection,0.447265625,0.6242424242424242,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",18,239,Fourier+pairwise SVM,0
+1005,64,512,Projected quantum kernel,0.84375,0.8888888888888888,"{""C"": 1.0, ""gamma"": 1.0}",34,239,RBF SVM,0
+1005,64,512,RBF SVM,0.466796875,0.531024531024531,"{""model__C"": 0.1, ""model__gamma"": 0.01}",34,239,RBF SVM,0
+1005,64,512,MLP,0.46484375,0.5014430014430015,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",34,239,RBF SVM,0
+1005,64,512,Random forest,0.466796875,0.3297258297258297,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",34,239,RBF SVM,0
+1005,64,512,Gradient boosting,0.46875,0.3297258297258297,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",34,239,RBF SVM,0
+1005,64,512,Fourier+pairwise SVM,0.466796875,0.531024531024531,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",34,239,RBF SVM,0
+1005,64,512,Classical same-feature RBF,0.84375,0.8888888888888888,"{""C"": 1.0, ""gamma"": 1.0}",34,239,RBF SVM,0
+1005,64,512,Classical same-feature logistic,0.853515625,0.9054834054834054,"{""C"": 1.0}",34,239,RBF SVM,0
+1005,64,512,Nonentangling projection RBF,0.46484375,0.562049062049062,"{""C"": 10.0, ""gamma"": 1.0}",34,239,RBF SVM,0
+1005,64,512,Classical raw-input selection,0.466796875,0.531024531024531,"{""model__C"": 0.1, ""model__gamma"": 0.01}",34,239,RBF SVM,0
+1005,128,512,Projected quantum kernel,0.876953125,0.8986710963455149,"{""C"": 100.0, ""gamma"": 1.0}",61,239,Fourier+pairwise SVM,0
+1005,128,512,RBF SVM,0.501953125,0.5236249538575121,"{""model__C"": 1.0, ""model__gamma"": 1.0}",61,239,Fourier+pairwise SVM,0
+1005,128,512,MLP,0.5,0.546327057954965,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",61,239,Fourier+pairwise SVM,0
+1005,128,512,Random forest,0.4921875,0.4920634920634921,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",61,239,Fourier+pairwise SVM,0
+1005,128,512,Gradient boosting,0.498046875,0.5153193060169805,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",61,239,Fourier+pairwise SVM,0
+1005,128,512,Fourier+pairwise SVM,0.47265625,0.5542635658914729,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",61,239,Fourier+pairwise SVM,0
+1005,128,512,Classical same-feature RBF,0.876953125,0.8986710963455149,"{""C"": 100.0, ""gamma"": 1.0}",61,239,Fourier+pairwise SVM,0
+1005,128,512,Classical same-feature logistic,0.931640625,0.9221114802510151,"{""C"": 100.0}",61,239,Fourier+pairwise SVM,0
+1005,128,512,Nonentangling projection RBF,0.521484375,0.5391288298265043,"{""C"": 1.0, ""gamma"": 0.1}",61,239,Fourier+pairwise SVM,0
+1005,128,512,Classical raw-input selection,0.47265625,0.5542635658914729,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",61,239,Fourier+pairwise SVM,0
+1005,256,512,Projected quantum kernel,0.9375,0.9414044687642499,"{""C"": 100.0, ""gamma"": 0.1}",116,239,RBF SVM,0
+1005,256,512,RBF SVM,0.533203125,0.5468764249886001,"{""model__C"": 0.1, ""model__gamma"": 0.01}",116,239,RBF SVM,0
+1005,256,512,MLP,0.53125,0.5200182398540812,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",116,239,RBF SVM,6
+1005,256,512,Random forest,0.5390625,0.4883720930232558,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",116,239,RBF SVM,0
+1005,256,512,Gradient boosting,0.51171875,0.48818969448244415,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",116,239,RBF SVM,0
+1005,256,512,Fourier+pairwise SVM,0.533203125,0.5468764249886001,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",116,239,RBF SVM,0
+1005,256,512,Classical same-feature RBF,0.9375,0.9414044687642499,"{""C"": 100.0, ""gamma"": 0.1}",116,239,RBF SVM,0
+1005,256,512,Classical same-feature logistic,0.94921875,0.9569995440036481,"{""C"": 100.0}",116,239,RBF SVM,0
+1005,256,512,Nonentangling projection RBF,0.533203125,0.5468764249886001,"{""C"": 0.1, ""gamma"": 0.1}",116,239,RBF SVM,0
+1005,256,512,Classical raw-input selection,0.533203125,0.5468764249886001,"{""model__C"": 0.1, ""model__gamma"": 0.01}",116,239,RBF SVM,0
+1006,32,512,Projected quantum kernel,0.841796875,0.8151515151515151,"{""C"": 10.0, ""gamma"": 1.0}",18,257,Random forest,0
+1006,32,512,RBF SVM,0.5078125,0.5666666666666667,"{""model__C"": 1.0, ""model__gamma"": 0.1}",18,257,Random forest,0
+1006,32,512,MLP,0.490234375,0.6575757575757576,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",18,257,Random forest,0
+1006,32,512,Random forest,0.509765625,0.6878787878787879,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",18,257,Random forest,0
+1006,32,512,Gradient boosting,0.501953125,0.6575757575757576,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",18,257,Random forest,0
+1006,32,512,Fourier+pairwise SVM,0.501953125,0.5636363636363636,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",18,257,Random forest,0
+1006,32,512,Classical same-feature RBF,0.841796875,0.8151515151515151,"{""C"": 10.0, ""gamma"": 1.0}",18,257,Random forest,0
+1006,32,512,Classical same-feature logistic,0.892578125,0.7757575757575758,"{""C"": 100.0}",18,257,Random forest,0
+1006,32,512,Nonentangling projection RBF,0.51171875,0.6242424242424242,"{""C"": 1.0, ""gamma"": 0.1}",18,257,Random forest,0
+1006,32,512,Classical raw-input selection,0.509765625,0.6878787878787879,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",18,257,Random forest,0
+1006,64,512,Projected quantum kernel,0.873046875,0.7842712842712842,"{""C"": 10.0, ""gamma"": 1.0}",33,257,RBF SVM,0
+1006,64,512,RBF SVM,0.48046875,0.5793650793650794,"{""model__C"": 1.0, ""model__gamma"": 1.0}",33,257,RBF SVM,0
+1006,64,512,MLP,0.458984375,0.5295815295815296,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",33,257,RBF SVM,0
+1006,64,512,Random forest,0.48046875,0.577922077922078,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",33,257,RBF SVM,0
+1006,64,512,Gradient boosting,0.474609375,0.5786435786435785,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",33,257,RBF SVM,0
+1006,64,512,Fourier+pairwise SVM,0.498046875,0.5786435786435786,"{""model__C"": 10.0, ""model__gamma"": 0.001}",33,257,RBF SVM,0
+1006,64,512,Classical same-feature RBF,0.873046875,0.7842712842712842,"{""C"": 10.0, ""gamma"": 1.0}",33,257,RBF SVM,0
+1006,64,512,Classical same-feature logistic,0.9140625,0.8138528138528138,"{""C"": 10.0}",33,257,RBF SVM,0
+1006,64,512,Nonentangling projection RBF,0.501953125,0.5158730158730158,"{""C"": 0.1, ""gamma"": 0.1}",33,257,RBF SVM,0
+1006,64,512,Classical raw-input selection,0.48046875,0.5793650793650794,"{""model__C"": 1.0, ""model__gamma"": 1.0}",33,257,RBF SVM,0
+1006,128,512,Projected quantum kernel,0.89453125,0.8905500184569952,"{""C"": 10.0, ""gamma"": 1.0}",64,257,RBF SVM,0
+1006,128,512,RBF SVM,0.4765625,0.5860095976375046,"{""model__C"": 1.0, ""model__gamma"": 0.01}",64,257,RBF SVM,0
+1006,128,512,MLP,0.453125,0.5703211517165004,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",64,257,RBF SVM,0
+1006,128,512,Random forest,0.490234375,0.5310077519379846,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",64,257,RBF SVM,0
+1006,128,512,Gradient boosting,0.529296875,0.5387596899224806,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",64,257,RBF SVM,0
+1006,128,512,Fourier+pairwise SVM,0.517578125,0.5468807678110004,"{""model__C"": 10.0, ""model__gamma"": 0.001}",64,257,RBF SVM,0
+1006,128,512,Classical same-feature RBF,0.89453125,0.8905500184569952,"{""C"": 10.0, ""gamma"": 1.0}",64,257,RBF SVM,0
+1006,128,512,Classical same-feature logistic,0.94921875,0.9139904023624954,"{""C"": 100.0}",64,257,RBF SVM,0
+1006,128,512,Nonentangling projection RBF,0.54296875,0.53156146179402,"{""C"": 1.0, ""gamma"": 0.1}",64,257,RBF SVM,0
+1006,128,512,Classical raw-input selection,0.4765625,0.5860095976375046,"{""model__C"": 1.0, ""model__gamma"": 0.01}",64,257,RBF SVM,0
+1006,256,512,Projected quantum kernel,0.94140625,0.9492476060191519,"{""C"": 100.0, ""gamma"": 0.1}",114,257,Fourier+pairwise SVM,0
+1006,256,512,RBF SVM,0.498046875,0.5546739626082992,"{""model__C"": 0.1, ""model__gamma"": 0.01}",114,257,Fourier+pairwise SVM,0
+1006,256,512,MLP,0.525390625,0.5274053807569539,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""lbfgs""}",114,257,Fourier+pairwise SVM,6
+1006,256,512,Random forest,0.541015625,0.5585955312357501,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",114,257,Fourier+pairwise SVM,0
+1006,256,512,Gradient boosting,0.560546875,0.5276333789329685,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",114,257,Fourier+pairwise SVM,0
+1006,256,512,Fourier+pairwise SVM,0.548828125,0.578157774737802,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",114,257,Fourier+pairwise SVM,0
+1006,256,512,Classical same-feature RBF,0.94140625,0.9492476060191519,"{""C"": 100.0, ""gamma"": 0.1}",114,257,Fourier+pairwise SVM,0
+1006,256,512,Classical same-feature logistic,0.958984375,0.9766073871409029,"{""C"": 100.0}",114,257,Fourier+pairwise SVM,0
+1006,256,512,Nonentangling projection RBF,0.515625,0.5780665754673963,"{""C"": 10.0, ""gamma"": 1.0}",114,257,Fourier+pairwise SVM,0
+1006,256,512,Classical raw-input selection,0.548828125,0.578157774737802,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",114,257,Fourier+pairwise SVM,0
+1007,32,512,Projected quantum kernel,0.76171875,0.8424242424242424,"{""C"": 10.0, ""gamma"": 0.1}",18,247,MLP,0
+1007,32,512,RBF SVM,0.509765625,0.5939393939393939,"{""model__C"": 1.0, ""model__gamma"": 1.0}",18,247,MLP,0
+1007,32,512,MLP,0.515625,0.6545454545454547,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""adam""}",18,247,MLP,0
+1007,32,512,Random forest,0.541015625,0.5969696969696969,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",18,247,MLP,0
+1007,32,512,Gradient boosting,0.498046875,0.5969696969696969,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",18,247,MLP,0
+1007,32,512,Fourier+pairwise SVM,0.482421875,0.5636363636363636,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",18,247,MLP,0
+1007,32,512,Classical same-feature RBF,0.76171875,0.8424242424242424,"{""C"": 10.0, ""gamma"": 0.1}",18,247,MLP,0
+1007,32,512,Classical same-feature logistic,0.80859375,0.8424242424242424,"{""C"": 100.0}",18,247,MLP,0
+1007,32,512,Nonentangling projection RBF,0.482421875,0.5636363636363636,"{""C"": 0.1, ""gamma"": 0.1}",18,247,MLP,0
+1007,32,512,Classical raw-input selection,0.515625,0.6545454545454547,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""adam""}",18,247,MLP,0
+1007,64,512,Projected quantum kernel,0.865234375,0.8593073593073592,"{""C"": 100.0, ""gamma"": 0.1}",35,247,Fourier+pairwise SVM,0
+1007,64,512,RBF SVM,0.498046875,0.5476190476190476,"{""model__C"": 10.0, ""model__gamma"": 1.0}",35,247,Fourier+pairwise SVM,0
+1007,64,512,MLP,0.513671875,0.5137085137085137,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""adam""}",35,247,Fourier+pairwise SVM,0
+1007,64,512,Random forest,0.52734375,0.5303030303030303,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",35,247,Fourier+pairwise SVM,0
+1007,64,512,Gradient boosting,0.5234375,0.5007215007215007,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",35,247,Fourier+pairwise SVM,0
+1007,64,512,Fourier+pairwise SVM,0.517578125,0.6103896103896104,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",35,247,Fourier+pairwise SVM,0
+1007,64,512,Classical same-feature RBF,0.865234375,0.8593073593073592,"{""C"": 100.0, ""gamma"": 0.1}",35,247,Fourier+pairwise SVM,0
+1007,64,512,Classical same-feature logistic,0.87890625,0.891053391053391,"{""C"": 100.0}",35,247,Fourier+pairwise SVM,0
+1007,64,512,Nonentangling projection RBF,0.482421875,0.5468975468975469,"{""C"": 0.1, ""gamma"": 0.1}",35,247,Fourier+pairwise SVM,0
+1007,64,512,Classical raw-input selection,0.517578125,0.6103896103896104,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",35,247,Fourier+pairwise SVM,0
+1007,128,512,Projected quantum kernel,0.9375,0.9066076042820228,"{""C"": 100.0, ""gamma"": 0.1}",72,247,RBF SVM,0
+1007,128,512,RBF SVM,0.482421875,0.5625692137320044,"{""model__C"": 0.1, ""model__gamma"": 0.01}",72,247,RBF SVM,0
+1007,128,512,MLP,0.525390625,0.5075673680324844,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",72,247,RBF SVM,0
+1007,128,512,Random forest,0.494140625,0.5001845699520118,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",72,247,RBF SVM,0
+1007,128,512,Gradient boosting,0.5546875,0.4994462901439645,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",72,247,RBF SVM,0
+1007,128,512,Fourier+pairwise SVM,0.482421875,0.5625692137320044,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",72,247,RBF SVM,0
+1007,128,512,Classical same-feature RBF,0.9375,0.9066076042820228,"{""C"": 100.0, ""gamma"": 0.1}",72,247,RBF SVM,0
+1007,128,512,Classical same-feature logistic,0.9453125,0.9221114802510151,"{""C"": 100.0}",72,247,RBF SVM,0
+1007,128,512,Nonentangling projection RBF,0.482421875,0.5625692137320044,"{""C"": 0.1, ""gamma"": 0.1}",72,247,RBF SVM,0
+1007,128,512,Classical raw-input selection,0.482421875,0.5625692137320044,"{""model__C"": 0.1, ""model__gamma"": 0.01}",72,247,RBF SVM,0
+1007,256,512,Projected quantum kernel,0.951171875,0.9220246238030096,"{""C"": 100.0, ""gamma"": 0.1}",142,247,Fourier+pairwise SVM,0
+1007,256,512,RBF SVM,0.482421875,0.5546739626082992,"{""model__C"": 0.1, ""model__gamma"": 0.01}",142,247,Fourier+pairwise SVM,0
+1007,256,512,MLP,0.482421875,0.4608755129958961,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",142,247,Fourier+pairwise SVM,6
+1007,256,512,Random forest,0.505859375,0.5231646146830825,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",142,247,Fourier+pairwise SVM,0
+1007,256,512,Gradient boosting,0.494140625,0.5467396260829913,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",142,247,Fourier+pairwise SVM,0
+1007,256,512,Fourier+pairwise SVM,0.515625,0.5587323301413589,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",142,247,Fourier+pairwise SVM,0
+1007,256,512,Classical same-feature RBF,0.951171875,0.9220246238030096,"{""C"": 100.0, ""gamma"": 0.1}",142,247,Fourier+pairwise SVM,0
+1007,256,512,Classical same-feature logistic,0.95703125,0.9376652986776106,"{""C"": 100.0}",142,247,Fourier+pairwise SVM,0
+1007,256,512,Nonentangling projection RBF,0.478515625,0.570360237118103,"{""C"": 10.0, ""gamma"": 1.0}",142,247,Fourier+pairwise SVM,0
+1007,256,512,Classical raw-input selection,0.515625,0.5587323301413589,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",142,247,Fourier+pairwise SVM,0
+1008,32,512,Projected quantum kernel,0.78515625,0.8181818181818182,"{""C"": 1.0, ""gamma"": 1.0}",17,234,MLP,0
+1008,32,512,RBF SVM,0.453125,0.7515151515151516,"{""model__C"": 10.0, ""model__gamma"": 0.01}",17,234,MLP,0
+1008,32,512,MLP,0.462890625,0.7818181818181819,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",17,234,MLP,0
+1008,32,512,Random forest,0.439453125,0.6878787878787879,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",17,234,MLP,0
+1008,32,512,Gradient boosting,0.46875,0.7818181818181819,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",17,234,MLP,0
+1008,32,512,Fourier+pairwise SVM,0.46484375,0.6575757575757576,"{""model__C"": 10.0, ""model__gamma"": 0.001}",17,234,MLP,0
+1008,32,512,Classical same-feature RBF,0.78515625,0.8181818181818182,"{""C"": 1.0, ""gamma"": 1.0}",17,234,MLP,0
+1008,32,512,Classical same-feature logistic,0.8046875,0.787878787878788,"{""C"": 10.0}",17,234,MLP,0
+1008,32,512,Nonentangling projection RBF,0.453125,0.5606060606060606,"{""C"": 10.0, ""gamma"": 1.0}",17,234,MLP,0
+1008,32,512,Classical raw-input selection,0.462890625,0.7818181818181819,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",17,234,MLP,0
+1008,64,512,Projected quantum kernel,0.91015625,0.8441558441558441,"{""C"": 100.0, ""gamma"": 0.1}",34,234,Gradient boosting,0
+1008,64,512,RBF SVM,0.482421875,0.5945165945165944,"{""model__C"": 100.0, ""model__gamma"": 0.1}",34,234,Gradient boosting,0
+1008,64,512,MLP,0.46875,0.5786435786435786,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""adam""}",34,234,Gradient boosting,0
+1008,64,512,Random forest,0.44140625,0.63997113997114,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",34,234,Gradient boosting,0
+1008,64,512,Gradient boosting,0.474609375,0.6731601731601732,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",34,234,Gradient boosting,0
+1008,64,512,Fourier+pairwise SVM,0.47265625,0.6414141414141413,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",34,234,Gradient boosting,0
+1008,64,512,Classical same-feature RBF,0.91015625,0.8441558441558441,"{""C"": 100.0, ""gamma"": 0.1}",34,234,Gradient boosting,0
+1008,64,512,Classical same-feature logistic,0.9140625,0.8282828282828283,"{""C"": 100.0}",34,234,Gradient boosting,0
+1008,64,512,Nonentangling projection RBF,0.490234375,0.562049062049062,"{""C"": 10.0, ""gamma"": 0.1}",34,234,Gradient boosting,0
+1008,64,512,Classical raw-input selection,0.474609375,0.6731601731601732,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",34,234,Gradient boosting,0
+1008,128,512,Projected quantum kernel,0.912109375,0.8986710963455149,"{""C"": 100.0, ""gamma"": 0.1}",64,234,RBF SVM,0
+1008,128,512,RBF SVM,0.470703125,0.6090808416389811,"{""model__C"": 1.0, ""model__gamma"": 0.1}",64,234,RBF SVM,0
+1008,128,512,MLP,0.48828125,0.5389442598744925,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""adam""}",64,234,RBF SVM,0
+1008,128,512,Random forest,0.431640625,0.5623846437799926,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",64,234,RBF SVM,0
+1008,128,512,Gradient boosting,0.486328125,0.5780730897009966,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",64,234,RBF SVM,0
+1008,128,512,Fourier+pairwise SVM,0.505859375,0.5081210778885198,"{""model__C"": 0.1, ""model__gamma"": 0.1}",64,234,RBF SVM,0
+1008,128,512,Classical same-feature RBF,0.912109375,0.8986710963455149,"{""C"": 100.0, ""gamma"": 0.1}",64,234,RBF SVM,0
+1008,128,512,Classical same-feature logistic,0.9296875,0.8988556662975267,"{""C"": 100.0}",64,234,RBF SVM,0
+1008,128,512,Nonentangling projection RBF,0.517578125,0.5466961978589886,"{""C"": 1.0, ""gamma"": 0.1}",64,234,RBF SVM,0
+1008,128,512,Classical raw-input selection,0.470703125,0.6090808416389811,"{""model__C"": 1.0, ""model__gamma"": 0.1}",64,234,RBF SVM,0
+1008,256,512,Projected quantum kernel,0.94140625,0.9648882808937529,"{""C"": 100.0, ""gamma"": 0.1}",129,234,RBF SVM,0
+1008,256,512,RBF SVM,0.4453125,0.5352029183766529,"{""model__C"": 1.0, ""model__gamma"": 0.01}",129,234,RBF SVM,0
+1008,256,512,MLP,0.501953125,0.5194254445964432,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",129,234,RBF SVM,6
+1008,256,512,Random forest,0.453125,0.49215686274509807,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",129,234,RBF SVM,0
+1008,256,512,Gradient boosting,0.474609375,0.48062015503875966,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",129,234,RBF SVM,0
+1008,256,512,Fourier+pairwise SVM,0.45703125,0.503921568627451,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",129,234,RBF SVM,0
+1008,256,512,Classical same-feature RBF,0.94140625,0.9648882808937529,"{""C"": 100.0, ""gamma"": 0.1}",129,234,RBF SVM,0
+1008,256,512,Classical same-feature logistic,0.955078125,0.9688554491564068,"{""C"": 100.0}",129,234,RBF SVM,0
+1008,256,512,Nonentangling projection RBF,0.4921875,0.562562699498404,"{""C"": 10.0, ""gamma"": 0.1}",129,234,RBF SVM,0
+1008,256,512,Classical raw-input selection,0.4453125,0.5352029183766529,"{""model__C"": 1.0, ""model__gamma"": 0.01}",129,234,RBF SVM,0
+1009,32,512,Projected quantum kernel,0.703125,0.8151515151515151,"{""C"": 10.0, ""gamma"": 0.1}",19,244,MLP,0
+1009,32,512,RBF SVM,0.4765625,0.5939393939393939,"{""model__C"": 0.1, ""model__gamma"": 0.01}",19,244,MLP,0
+1009,32,512,MLP,0.478515625,0.6878787878787879,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",19,244,MLP,0
+1009,32,512,Random forest,0.5078125,0.5,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",19,244,MLP,0
+1009,32,512,Gradient boosting,0.4921875,0.5,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",19,244,MLP,0
+1009,32,512,Fourier+pairwise SVM,0.4765625,0.5939393939393939,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",19,244,MLP,0
+1009,32,512,Classical same-feature RBF,0.703125,0.8151515151515151,"{""C"": 10.0, ""gamma"": 0.1}",19,244,MLP,0
+1009,32,512,Classical same-feature logistic,0.7421875,0.8454545454545453,"{""C"": 10.0}",19,244,MLP,0
+1009,32,512,Nonentangling projection RBF,0.4765625,0.5939393939393939,"{""C"": 0.1, ""gamma"": 0.1}",19,244,MLP,0
+1009,32,512,Classical raw-input selection,0.478515625,0.6878787878787879,"{""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",19,244,MLP,0
+1009,64,512,Projected quantum kernel,0.845703125,0.8116883116883118,"{""C"": 10.0, ""gamma"": 1.0}",35,244,Random forest,0
+1009,64,512,RBF SVM,0.505859375,0.6406926406926408,"{""model__C"": 10.0, ""model__gamma"": 0.01}",35,244,Random forest,0
+1009,64,512,MLP,0.51171875,0.6125541125541125,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",35,244,Random forest,0
+1009,64,512,Random forest,0.525390625,0.6428571428571429,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",35,244,Random forest,0
+1009,64,512,Gradient boosting,0.5234375,0.5966810966810967,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",35,244,Random forest,0
+1009,64,512,Fourier+pairwise SVM,0.4765625,0.5468975468975469,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",35,244,Random forest,0
+1009,64,512,Classical same-feature RBF,0.845703125,0.8116883116883118,"{""C"": 10.0, ""gamma"": 1.0}",35,244,Random forest,0
+1009,64,512,Classical same-feature logistic,0.75390625,0.7965367965367965,"{""C"": 1.0}",35,244,Random forest,0
+1009,64,512,Nonentangling projection RBF,0.4765625,0.5468975468975469,"{""C"": 0.1, ""gamma"": 0.1}",35,244,Random forest,0
+1009,64,512,Classical raw-input selection,0.525390625,0.6428571428571429,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",35,244,Random forest,0
+1009,128,512,Projected quantum kernel,0.92578125,0.8829826504245109,"{""C"": 100.0, ""gamma"": 0.1}",68,244,MLP,0
+1009,128,512,RBF SVM,0.541015625,0.6100036913990402,"{""model__C"": 10.0, ""model__gamma"": 1.0}",68,244,MLP,0
+1009,128,512,MLP,0.552734375,0.632890365448505,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",68,244,MLP,0
+1009,128,512,Random forest,0.515625,0.5943152454780362,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",68,244,MLP,0
+1009,128,512,Gradient boosting,0.5078125,0.5778885197489848,"{""model__l2_regularization"": 1.0, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 5}",68,244,MLP,0
+1009,128,512,Fourier+pairwise SVM,0.4921875,0.5941306755260244,"{""model__C"": 10.0, ""model__gamma"": 0.0001}",68,244,MLP,0
+1009,128,512,Classical same-feature RBF,0.92578125,0.8829826504245109,"{""C"": 100.0, ""gamma"": 0.1}",68,244,MLP,0
+1009,128,512,Classical same-feature logistic,0.951171875,0.906423034330011,"{""C"": 100.0}",68,244,MLP,0
+1009,128,512,Nonentangling projection RBF,0.482421875,0.5389442598744925,"{""C"": 1.0, ""gamma"": 1.0}",68,244,MLP,0
+1009,128,512,Classical raw-input selection,0.552734375,0.632890365448505,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [32], ""model__solver"": ""adam""}",68,244,MLP,0
+1009,256,512,Projected quantum kernel,0.96484375,0.925718194254446,"{""C"": 100.0, ""gamma"": 0.1}",135,244,Fourier+pairwise SVM,0
+1009,256,512,RBF SVM,0.533203125,0.5549475604195167,"{""model__C"": 10.0, ""model__gamma"": 1.0}",135,244,Fourier+pairwise SVM,0
+1009,256,512,MLP,0.53125,0.5745098039215687,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32], ""model__solver"": ""lbfgs""}",135,244,Fourier+pairwise SVM,3
+1009,256,512,Random forest,0.51171875,0.5550387596899226,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",135,244,Fourier+pairwise SVM,0
+1009,256,512,Gradient boosting,0.53125,0.5471044231646147,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",135,244,Fourier+pairwise SVM,0
+1009,256,512,Fourier+pairwise SVM,0.4609375,0.5858185134518924,"{""model__C"": 10.0, ""model__gamma"": 0.001}",135,244,Fourier+pairwise SVM,0
+1009,256,512,Classical same-feature RBF,0.96484375,0.925718194254446,"{""C"": 100.0, ""gamma"": 0.1}",135,244,Fourier+pairwise SVM,0
+1009,256,512,Classical same-feature logistic,0.9765625,0.9296853625171,"{""C"": 100.0}",135,244,Fourier+pairwise SVM,0
+1009,256,512,Nonentangling projection RBF,0.509765625,0.5626538987688098,"{""C"": 1.0, ""gamma"": 0.1}",135,244,Fourier+pairwise SVM,0
+1009,256,512,Classical raw-input selection,0.4609375,0.5858185134518924,"{""model__C"": 10.0, ""model__gamma"": 0.001}",135,244,Fourier+pairwise SVM,0

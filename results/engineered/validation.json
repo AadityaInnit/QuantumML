@@ -1,0 +1,23 @@
+{
+  "protocol_and_source_hashes_verified": true,
+  "frozen_before_execution": true,
+  "datasets_verified": 10,
+  "training_sizes_verified": 4,
+  "score_rows_verified": 400,
+  "every_prediction_score_recomputed": true,
+  "same_feature_predictions_identical": true,
+  "classical_selection_verified_training_only": true,
+  "primary_outcome": "positive",
+  "fit_warning_counts": {
+    "Classical raw-input selection": 6,
+    "Classical same-feature RBF": 0,
+    "Classical same-feature logistic": 0,
+    "Fourier+pairwise SVM": 0,
+    "Gradient boosting": 1,
+    "MLP": 62,
+    "Nonentangling projection RBF": 0,
+    "Projected quantum kernel": 0,
+    "RBF SVM": 0,
+    "Random forest": 0
+  }
+}
