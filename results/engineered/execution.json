@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-10-24T06:44:25.549668+00:00",
+  "protocol_sha256": "dff2262ca0b6f6ef26e47d7abb8c13e5a9d21c99f9ed2ce2e0dcc7d603b062a6",
+  "source_sha256": {
+    "src/qkb/engineered.py": "8cfd09a40ec211ff17eb93aa440c60a0ed3b95fdc2bf0141c730d66adc3b207e",
+    "scripts/run_engineered.py": "f1f5d208bb9c3a4a4b4feac023887f1aac9bef1ee895fd6b88a0a04be0201378"
+  },
+  "python": "3.13.6 (v3.13.6:4e665351082, Aug  6 2025, 11:22:35) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "completed_at_utc": "2026-10-24T06:50:14.674661+00:00",
+  "elapsed_seconds": 349.0973110420018,
+  "datasets": 10,
+  "score_rows": 400
+}
